@@ -4,7 +4,7 @@ WORKDIR /nextjs
 
 COPY . .
 
-RUN yarn install
+RUN yarn install --check-files
 RUN yarn build
 
 CMD ["yarn", "start"]
