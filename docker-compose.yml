@@ -1,5 +1,5 @@
 services:
-  www_harukoto_jp:
+  nsr-tools:
     build: .
     ports:
       - '3003:3000'
