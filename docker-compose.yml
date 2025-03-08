@@ -5,4 +5,5 @@ services:
       - '3003:3000'
     environment:
       - WEBHOOK_URL=${WEBHOOK_URL}
+      - NODE_ENV=production
     restart: always
